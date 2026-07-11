@@ -1,0 +1,7 @@
+llama-parse
+llama-index
+pymupdf
+pdfplumber
+python-dotenv
+loguru
+pytest
