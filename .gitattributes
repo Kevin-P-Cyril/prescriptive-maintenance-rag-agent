@@ -1,1 +1,5 @@
 * text=auto eol=lf
+
+# Windows batch files must keep CRLF line endings — cmd.exe's parser
+# (especially inside if/parentheses blocks) breaks on LF-only files.
+*.bat text eol=crlf
