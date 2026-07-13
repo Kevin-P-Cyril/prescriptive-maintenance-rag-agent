@@ -1,0 +1,58 @@
+[
+  {
+    "part_name": "Spindle Bearing Set",
+    "sku": "SPB-2201",
+    "quantity": 12,
+    "location": "Warehouse A - Rack 4",
+    "compatible_machines": ["CNC-204", "CNC Milling Machine"]
+  },
+  {
+    "part_name": "Coolant Pump",
+    "sku": "CLP-0876",
+    "quantity": 0,
+    "location": "Warehouse B - Rack 1",
+    "compatible_machines": ["CNC-204", "CNC-310", "CNC Milling Machine"]
+  },
+  {
+    "part_name": "Drive Belt (Type A)",
+    "sku": "DBT-1145",
+    "quantity": 25,
+    "location": "Warehouse A - Rack 2",
+    "compatible_machines": ["Conveyor System", "CNV-501"]
+  },
+  {
+    "part_name": "Hydraulic Seal Kit",
+    "sku": "HSK-3390",
+    "quantity": 4,
+    "location": "Warehouse A - Rack 7",
+    "compatible_machines": ["Hydraulic Press", "HPX-800"]
+  },
+  {
+    "part_name": "Thermal Overload Relay",
+    "sku": "TOR-4402",
+    "quantity": 18,
+    "location": "Warehouse C - Rack 3",
+    "compatible_machines": ["CNC-204", "HPX-800", "CNV-501"]
+  },
+  {
+    "part_name": "Servo Motor Encoder",
+    "sku": "SME-5521",
+    "quantity": 2,
+    "location": "Warehouse B - Rack 5",
+    "compatible_machines": ["CNC-310", "CNC Milling Machine"]
+  },
+  {
+    "part_name": "Air Filter Cartridge",
+    "sku": "AFC-1187",
+    "quantity": 40,
+    "location": "Warehouse A - Rack 1",
+    "compatible_machines": ["HPX-800", "Compressor Unit"]
+  },
+  {
+    "part_name": "Limit Switch",
+    "sku": "LSW-2290",
+    "quantity": 9,
+    "location": "Warehouse C - Rack 6",
+    "compatible_machines": ["CNV-501", "Conveyor System"]
+  }
+]
