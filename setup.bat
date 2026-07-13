@@ -26,7 +26,8 @@ echo [OK] Python found.
 REM --- Check Node.js ---
 where node >nul 2>nul
 if errorlevel 1 (
-    echo [ERROR] Node.js was not found on PATH. Install it from https://nodejs.org/ (LTS version).
+    echo [ERROR] Node.js was not found on PATH.
+    echo         Install the LTS version from https://nodejs.org/
     pause
     exit /b 1
 )
@@ -79,7 +80,7 @@ if not exist "data\manuals\cnc_204_maintenance_manual.pdf" (
 where ollama >nul 2>nul
 if not errorlevel 1 (
     echo.
-    echo Pulling local LLM model (llama3.2) via Ollama - this is FREE and runs offline...
+    echo Pulling local LLM model llama3.2 via Ollama - this is FREE and runs offline...
     ollama pull llama3.2
 )
 
