@@ -9,7 +9,7 @@ echo.
 REM --- Make sure Ollama is running (free, local LLM server) ---
 where ollama >nul 2>nul
 if not errorlevel 1 (
-    echo Starting Ollama server in the background (if not already running)...
+    echo Starting Ollama server in the background...
     start "Ollama Server" /min cmd /c "ollama serve"
     timeout /t 2 >nul
 ) else (
