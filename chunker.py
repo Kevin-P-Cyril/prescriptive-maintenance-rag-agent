@@ -7,8 +7,8 @@ INPUT_FILE = "data/parsed/sample_manual.txt"
 OUTPUT_FILE = "data/chunks/chunks.json"
 
 # Chunking configuration
-CHUNK_SIZE = 200
-CHUNK_OVERLAP = 20
+CHUNK_SIZE = 500
+CHUNK_OVERLAP = 50
 
 
 def load_text(file_path: str) -> str:
