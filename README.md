@@ -1,2 +1,8 @@
-# prescriptive-maintenance-rag-agent
-Manufacturing &amp; Industry 5.0 - Prescriptive Maintenance RAG Agent
+# HVAC Manual RAG
+
+Setup:
+```bash
+python -m venv .venv
+pip install -r requirements.txt
+python parser.py
+```

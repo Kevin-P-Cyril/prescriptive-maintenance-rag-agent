@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ChromaDB database
+chroma_db/
+
+# Generated parser output
+data/parsed/
+
+# Generated chunk output
+data/chunks/
