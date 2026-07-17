@@ -12,8 +12,19 @@ def parse_with_llamaparse(pdf_path):
 
 def parse_with_pymupdf(pdf_path):
     import fitz
-    doc=fitz.open(pdf_path)
-    return "".join(page.get_text() for page in doc)
+
+    doc = fitz.open(pdf_path)
+
+    print("Total Pages:", len(doc))
+
+    text = ""
+
+    for page_num, page in enumerate(doc):
+        page_text = page.get_text()
+        print(f"Page {page_num + 1}: {len(page_text)} characters")
+        text += page_text
+
+    return text
 
 if __name__=="__main__":
     try:
