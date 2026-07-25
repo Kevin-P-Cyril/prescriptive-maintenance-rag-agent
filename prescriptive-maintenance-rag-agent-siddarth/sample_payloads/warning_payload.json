@@ -1,0 +1,8 @@
+{
+  "machine_id": "PUMP-004",
+  "temperature": 78.4,
+  "vibration": 4.6,
+  "status": "WARNING",
+  "pressure": 1.8,
+  "timestamp": "2026-07-25T14:32:00Z"
+}

@@ -1,0 +1,8 @@
+{
+  "machine_id": "TURBINE-002",
+  "temperature": 42.5,
+  "vibration": 1.2,
+  "status": "NORMAL",
+  "pressure": 1.0,
+  "timestamp": "2026-07-25T14:31:00Z"
+}

@@ -1,0 +1,8 @@
+{
+  "machine_id": "TURBINE-001",
+  "temperature": 95.2,
+  "vibration": 5.3,
+  "status": "OVERHEATING",
+  "pressure": 2.4,
+  "timestamp": "2026-07-25T14:30:00Z"
+}
