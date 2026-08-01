@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive\Desktop\prescriptive-maintenance-rag-agent-siddarth\agent.py", line 24, in <module>
+    from langchain_core.messages import BaseMessage, HumanMessage, SystemMessage
+ModuleNotFoundError: No module named 'langchain_core'
