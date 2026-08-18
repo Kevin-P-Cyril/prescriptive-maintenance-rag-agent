@@ -29,7 +29,7 @@ timeout /t 3 >nul
 echo.
 echo ==========================================================
 echo  Both services are starting in separate windows:
-echo    Backend API + docs : http://localhost:8000/docs
+echo    Backend API + docs : http://127.0.0.1:8000/docs
 echo    Frontend UI        : http://localhost:5173
 echo  Close those windows to stop the services.
 echo ==========================================================
